@@ -7,7 +7,7 @@ mm.add("(min-width: 800px", () => {
             scroller: "body",
             start: "0% 80%",
             end: "0% 0%",
-            markers: true,
+            // markers: true,
             scrub: 2
         }
     });
@@ -37,7 +37,7 @@ mm.add("(max-width: 800px", () => {
             scroller: "body",
             start: "0% 80%",
             end: "0% -20%",
-            markers: true,
+            // markers: true,
             scrub: 2
         }
     });
