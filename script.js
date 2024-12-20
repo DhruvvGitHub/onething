@@ -16,10 +16,10 @@ mm.add("(min-width: 800px", () => {
         .from(".text-1", { x: "-50%", duration: 1 }, "a")
         .from(".text-2", { x: "70%", duration: 1 }, "a")
     
-        .to(".cards img", { y: "20%" }, "b")
+        .to(".cards img", { y: "37%" }, "b")
     
         .to([".card-1 img", ".card-2 img", ".card-3 img", ".card-4 img"], {
-            top: "25%",
+            top: "14%",
             duration: 1
         }, "c")
         .to([".card-1 img"], { left: "10%" }, "c")
